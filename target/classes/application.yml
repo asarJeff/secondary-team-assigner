@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+sap:
+  baseUrl: https://my1002287.us1.test.crm.cloud.sap
+  caseEndpoint: /sap/c4c/api/v1/case-service/cases
+  username: SERVICECLOUD_CASE_USER
+  password: SCv2CASEapiUSER2026SecurePASS!!9845
+
+  secondaryTeam:
+    partyRole: Z002
+    opsPartyId: 019c489b-20a3-7ccf-b65a-04c2cff75f0b
+    csPartyId: 019c23e7-879e-744b-a485-dfb4ef2bdf3c
+
+  statusCodes:
+    awaitingOps: Y3
+    awaitingCS: Y2
+
+  excludeLifeCycleStatuses:
+    - CLOSED
+    - COMPLETED
+    - RESOLVED
+
+poller:
+  delayMs: 120000
