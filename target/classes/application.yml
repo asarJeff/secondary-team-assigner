@@ -2,7 +2,7 @@ server:
   port: 8080
 
 sap:
-  baseUrl: https://my1002287.us1.test.crm.cloud.sap
+  baseUrl: https://my1002247.us1.crm.cloud.sap
   caseEndpoint: /sap/c4c/api/v1/case-service/cases
   username: SERVICECLOUD_CASE_USER
   password: SCv2CASEapiUSER2026SecurePASS!!9845
